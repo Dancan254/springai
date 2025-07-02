@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class VacationPlan {
+public class VacationPlanController {
 
     private final AzureOpenAiChatModel chatModel;
 
-    public VacationPlan(AzureOpenAiChatModel chatModel){
+    public VacationPlanController(AzureOpenAiChatModel chatModel){
         this.chatModel = chatModel;
     }
 
