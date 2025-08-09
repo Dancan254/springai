@@ -15,7 +15,7 @@ public class RecipeService {
     public String createRecipe(String ingredients, String cuisine, String dietaryRestrictions){
 
         var promptTemplate = """
-                 You are a professional chef. Create a detailed recipe using the following information:
+                You are a professional chef. Create a detailed recipe using the following information:
 
                 Ingredients: %s
                 Cuisine: %s
