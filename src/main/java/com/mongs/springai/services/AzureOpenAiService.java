@@ -1,4 +1,4 @@
-package com.mongs.springai;
+package com.mongs.springai.services;
 
 import org.springframework.ai.azure.openai.AzureOpenAiChatModel;
 import org.springframework.stereotype.Service;

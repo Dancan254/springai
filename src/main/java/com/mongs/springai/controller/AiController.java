@@ -1,9 +1,11 @@
-package com.mongs.springai;
+package com.mongs.springai.controller;
 
+import com.mongs.springai.services.AzureOpenAiService;
+import com.mongs.springai.services.ImageService;
+import com.mongs.springai.services.RecipeService;
 import org.springframework.ai.image.ImageResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
