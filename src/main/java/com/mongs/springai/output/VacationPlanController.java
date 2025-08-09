@@ -25,12 +25,6 @@ public class VacationPlanController {
     @GetMapping("/vacation/structured")
     public Itinerary structured() throws Exception {
         String prompt = """
-                Return only a JSON object with this structure:
-                {
-                  "activities": [
-                    {"activityName": "...", "location": "...", "day": "...", "time": "..."}
-                  ]
-                }
                 I want to go on a vacation to Maldives. Give me a list of things to do.
                 """;
         AzureOpenAiResponseFormat responseFormat = AzureOpenAiResponseFormat.builder()
