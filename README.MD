@@ -24,7 +24,8 @@ Framework that integrates AI into Spring applications using familiar patterns:
 - **ChatClient:** Handle LLM conversations
 - **EmbeddingClient:** Convert text to vectors
 - **VectorStore:** Store and search embeddings
-  It currently supports models that process various inputs and outputs:
+
+It currently supports models that process various inputs and outputs:
 - language
 - image
 - audio
