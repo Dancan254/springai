@@ -12,10 +12,11 @@
 **Prompt:** Input instruction given to the AI model
 - System Prompt - instructions/guidelines for the model to generate a response 
 - User Prompt - user's input to the model
-**Prompt Templates:** Predefined prompts that can be used to generate responses
-**Structured Output:** AI models output in form os as string by default. There are customizations to make the output a structured object.
-**Embeddings:** Numerical representations of text, images, or videos meaning. Embeddings are float vectors that can be used for similarity or semantic search. 
-**Vector Database:** Storage for embeddings with similarity search
+
+**Prompt Templates:** Predefined prompts that can be used to generate responses  
+**Structured Output:** AI models output in form os as string by default. There are customizations to make the output a structured object.  
+**Embeddings:** Numerical representations of text, images, or videos meaning. Embeddings are float vectors that can be used for similarity or semantic search.   
+**Vector Database:** Storage for embeddings with similarity search  
 **Temperature:** Controls randomness (0=focused, 1=creative)
 
 ## Spring AI
